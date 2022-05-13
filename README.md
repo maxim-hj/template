@@ -4,6 +4,13 @@
 
 ## Начало работы
 
+git remote set-url origin <url-of-new-repo>
+git branch -vv
+git push -u origin master
+-> for ignore
+git rm -r --cached src/
+git commit -am commit
+
 Для работы с данной сборкой в новом проекте, склонируйте все содержимое репозитория <br>
 `git clone <this repo>`
 Затем, находясь в корне проекта, запустите команду `npm i`, которая установит все находящиеся в package.json зависимости.
