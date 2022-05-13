@@ -4,12 +4,12 @@
 
 ## Начало работы
 
-git remote set-url origin <url-of-new-repo>
-git branch -vv
-git push -u origin master
--> for ignore
-git rm -r --cached src/
-git commit -am commit
+`git remote set-url origin <url-of-new-repo>` <br>
+`git branch -vv` <br>
+`git push -u origin master` <br>
+-> for ignore <br>
+`git rm -r --cached src/` <br>
+`git commit -am commit` <br>
 
 Для работы с данной сборкой в новом проекте, склонируйте все содержимое репозитория <br>
 `git clone <this repo>`
