@@ -3,7 +3,7 @@ const {
   dest,
   series,
   watch
-} = require('gulp');
+} = require('gulp'); // сюдааа
 const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 const del = require('del');
